@@ -134,7 +134,7 @@ footer figure {
   gap: 15px;
 }
 
-.figuer img {
+figure img {
   filter: grayscale(1);
 }
 
