@@ -1,38 +1,38 @@
-{
-  margin: 0
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  backgroud: #0f0f0f;
-  color: #ffff;
+  background: #0f0f0f;
+  color: #fff;
   font-size: 16px;
-  line-heigth: 1.5;
+  line-height: 1.5;
 }
 
 header {
-  background: rgba(0,0,0,0.8)
+  background: rgba(0,0,0,0.8);
   padding: 20px;
-  text-aling: center;
+  text-align: center;
   display: flex;
-  flex-direcion: column;
+  flex-direction: column;
   justify-content: center;
-  aling-items: center;
+  align-items: center;
 }
 
 nav.crumbs ul {
   list-style: none;
-  displai: flex;
+  display: flex;
   gap: 15px;
 }
 
 nav ul li a {
   text-decoration: none;
   color: #fff;
-  font-wieght: bold;
-  font-size: 14px
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .crum a {
@@ -40,17 +40,17 @@ nav ul li a {
 }
 
 header div img {
-  width: 40p;
+  width: 40px;
   margin: 6px;
-  border-radus: 5px;
+  border-radius: 5px;
   transition: 0.3s;
 }
 
 section {
-  padding: 40px
+  padding: 40px;
   margin: 20px 0;
   background: rgba(255,255,255,0.03);
-  bordr: 1px solid rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.1);
   border-radius: 10px;
 }
 
@@ -62,7 +62,7 @@ blockquote {
   background: rgba(255,255,255,0.06);
   padding: 15px;
   border-left: 5px solid gold;
-  font-stile: italic;
+  font-style: italic;
   margin: auto;
   width: 70%;
 }
@@ -76,20 +76,20 @@ article {
   margin: 0 auto;
   padding: 20px;
   background: rgba(0,0,0,0.25);
-  box-shadoow: 0 0 20px #000;
-  border-radus: 8px;
+  box-shadow: 0 0 20px #000;
+  border-radius: 8px;
 }
 
 article h2 {
-  color: rgb(209,162,70)
+  color: rgb(209,162,70);
   font-size: 26px;
   margin-bottom: 10px;
 }
 
 article h3 {
   color: rgb(209, 162, 70);
-  margin-bottom: 10px
-  font-weigth: 600;
+  margin-bottom: 10px;
+  font-weight: 600;
 }
 
 article p {
@@ -104,41 +104,41 @@ article a {
   background: rgb(209,162,70);
   color: #111;
   border-radius: 4px;
-  text-decoration: none
-  transision: 0.3s;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 article a:hover {
-  backgroud: #b3862e;
+  background: #b3862e;
   transform: scale(1.05);
 }
 
 figure img {
-  width: 100%%;
+  width: 100%;
   max-width: 320px;
   height: auto;
   border-radius: 10px;
-  object-fit: coverr;
+  object-fit: cover;
   margin: 10px;
 }
 
 footer {
   background: #000;
   padding: 30px;
-  text-align center;
+  text-align: center;
 }
 
 footer figure {
   display: flex;
   justify-content: center;
   gap: 15px;
-}}
+}
 
 .figuer img {
   filter: grayscale(1);
 }
 
 @keyframes float {
-  form {opacity:0; transform: translateY(20px);}
+  from {opacity:0; transform: translateY(20px);}
   to {opacity:1; transform: translateY(0);}
 }
